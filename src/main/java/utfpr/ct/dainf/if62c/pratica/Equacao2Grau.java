@@ -28,7 +28,7 @@ public class Equacao2Grau<T extends Number> {
 }
     
     public void setA(T a){
-        if (a == null)
+        if (a.doubleValue() == 0.0)
            throw new RuntimeException("Coeficiente a não pode ser zero");
         
         this.a = a;
