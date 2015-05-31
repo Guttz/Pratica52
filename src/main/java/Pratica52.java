@@ -22,16 +22,16 @@ public class Pratica52 {
         
         Eq1Raiz1 = duasRaizes.getRaiz1();
         Eq1Raiz2 = duasRaizes.getRaiz2();
+        System.out.println("Raizes primeira equacao: " + Eq1Raiz1 + " e " + Eq1Raiz2);
         
         Eq2Raiz1 = umaRaiz.getRaiz1();
         Eq2Raiz2 = umaRaiz.getRaiz2();
+        System.out.println("Raizes segunda equacao: " + Eq2Raiz1 + " e "+ Eq2Raiz2);
         
         Eq3Raiz1 = semRaizes.getRaiz1();
         Eq3Raiz2 = semRaizes.getRaiz2();
-        
-        System.out.println("Raizes primeira equacao: " + Eq1Raiz1 + " e " + Eq1Raiz2);
-        System.out.println("Raizes segunda equacao: " + Eq2Raiz1 + " e "+ Eq2Raiz2);
         System.out.println("Raizes terceira equacao:" + Eq3Raiz1 +" e " + Eq3Raiz2);
+        
         } 
         catch (RuntimeException e){
         System.out.println(e.getLocalizedMessage());
